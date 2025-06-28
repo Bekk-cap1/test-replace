@@ -1,0 +1,58 @@
+
+body{
+    background: #000f2e;
+}
+.container{
+    max-width: 100%;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    color: yellow;
+}
+p{
+    color: #fff;
+}
+span{
+    color: greenyellow;
+}
+.main__flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+}
+img{
+    width: 400px;
+    height: 400px;
+    border: 4px solid yellow;
+}
+table{
+    width: 100%;
+    margin-top: 50px;
+}
+th,td{
+    border: 2px solid yellow;
+    width: 30%;
+    color: #fff;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+input{
+    width: 90%;
+    height: 40px;
+}
+button{
+    width: 300px;
+    background: yellow;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
